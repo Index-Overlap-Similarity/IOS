@@ -8,6 +8,9 @@ This guide provides step-by-step instructions to run the IOS ML Benchmark with a
 ### 1. Install Required Dependencies
 
 ```bash
+# Use UV with
+uv sync # Or
+
 # Core dependencies (should already be installed)
 pip install torch torchvision numpy
 
